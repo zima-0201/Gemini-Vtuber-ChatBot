@@ -1,0 +1,6 @@
+/api_key.txt
+/session.pkl
+/model/*
+/temp/
+/build/
+/dist/

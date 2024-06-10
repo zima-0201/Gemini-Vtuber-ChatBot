@@ -1,0 +1,15 @@
+google-generativeai
+SpeechRecognition
+so-vits-svc-fork
+PyAudio
+torch
+transformers
+gTTS
+opencv-python
+fastapi
+uvicorn
+python-multipart
+numpy
+starlette
+pyngrok
+pyinstaller
