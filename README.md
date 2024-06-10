@@ -1,7 +1,7 @@
-# V.I.X.E.V.I.A : Virtual Interactive and Xpressive Entertainment Visual Idol Avatar
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/) [![Gemini](https://img.shields.io/badge/Gemini-1.5-orange.svg)](https://cloud.google.com/generativeai/models)
+AI Chatbot Powered by Google Gemini for Virtual Idols
 
 [ID](README.ID.md) | [JP](README.JP.md) | [EN](README.md) | [ZN](README.ZN.md)
+
 > _Does she harbor feelings for you?_  
 > **No**, her heart belongs to another.  
 > _Does she show concern for your well-being?_  
@@ -9,19 +9,13 @@
 > _The pain of unrequited love is unbearable, but fear not, for there is a solution._  
 > **The solution is AI**, an entity that will always be there for you, understanding and responding to your emotions.
 
+## Introduction
 
 Vixevia is an innovative AI-based virtual YouTuber (Vtuber) that leverages the cutting-edge capabilities of Google's Gemini language model. This project aims to create a captivating and lifelike virtual personality that can engage with users through natural conversations, visual interactions, and multimedia experiences.
 
-## Table of Contents
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [TODO](#todo)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+![Project Image Overview](https://github.com/zima-0201/Project-Images/blob/main/Py-CS-Cart-Products-Uploader.jpeg)
 
-## Features
+### Core Features
 
 - **Natural Language Processing**: Vixevia utilizes Google's Gemini language model to understand and respond to user inputs with human-like fluency and contextual awareness.
 - **Computer Vision**: The project integrates computer vision capabilities, allowing Vixevia to perceive and interpret visual information from the environment.
@@ -29,19 +23,27 @@ Vixevia is an innovative AI-based virtual YouTuber (Vtuber) that leverages the c
 - **Personalized Responses**: Vixevia's responses are tailored to the conversational context, user preferences, and situational dynamics, ensuring engaging and personalized experiences.
 - **Virtual Avatar**: Vixevia is represented by a visually appealing and expressive virtual avatar, bringing her personality to life.
 
+## System Architecture
+
+This project is built on a microservices architecture, integrating various external services and APIs to provide a seamless user experience:
+
+- **Google Cloud Platform**: Integrates multiple API services to leverage the capabilities of the Gemini language model and computer vision.
+- **PostgreSQL Database**: Manages user data, including conversation histories and preferences, ensuring secure and efficient access to user-specific settings.
+- **Python Environment**: The entire backend logic is implemented in Python, taking advantage of its rich ecosystem of libraries for HTTP requests, database connections, and environmental variables management.
+
 ## Prerequisites
 
 - 5+ API keys from Google Cloud Platform
 - Python 3.12+
 
 Hardware:
-- 16 GB vram
-- 32 GB ram
+- 16 GB VRAM
+- 32 GB RAM
 - RTX 4050 or better
 - 20 GB of storage
-- i7 12th gen or better or AMD equivalent
+- i7 12th gen or better, or AMD equivalent
 
-## Getting Started
+## Installation and Setup
 
 To get started with Vixevia, follow these steps:
 
@@ -65,17 +67,28 @@ To get started with Vixevia, follow these steps:
    python main.py
    ```
 
-## TODO
+## Usage and Commands
 
-- [ ] Create custom Live2D model for Vixevia
-- [ ] Add opencv auto labeling so can remmeber person from Gemini Pro Vision
-## Contributing
+After setup, users interact with Vixevia through a series of commands and interactive buttons, enabling them to set up their environment, initiate conversations, and receive personalized responses. The bot's intuitive design ensures a smooth and engaging user experience.
 
-Contributions to Vixevia are welcome! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the project's coding guidelines and best practices.
+## Future Enhancements
+
+The project roadmap includes features such as:
+
+- Creating a custom Live2D model for Vixevia.
+- Adding OpenCV auto labeling to recognize and remember individuals using Gemini Pro Vision.
+
+## Contributing to the Project
+
+We welcome contributions from the community to make Vixevia more robust, feature-rich, and accessible. Refer to the Contributing section above for guidelines on making contributions.
+
+## Support and Feedback
+
+Your feedback and questions are valuable to us. For support, feature requests, or to report bugs, please open an issue in the project repository or contact the project maintainers directly.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE), which allows for redistribution, use, and modification under specified terms.
 
 ## Acknowledgments
 
