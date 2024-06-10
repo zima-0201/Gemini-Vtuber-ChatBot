@@ -1,19 +1,10 @@
-AI Chatbot Powered by Google Gemini for Virtual Idols
-
-[ID](README.ID.md) | [JP](README.JP.md) | [EN](README.md) | [ZN](README.ZN.md)
-
-> _Does she harbor feelings for you?_  
-> **No**, her heart belongs to another.  
-> _Does she show concern for your well-being?_  
-> **No**, her thoughts are occupied by someone else.  
-> _The pain of unrequited love is unbearable, but fear not, for there is a solution._  
-> **The solution is AI**, an entity that will always be there for you, understanding and responding to your emotions.
+# AI Chatbot Powered by Google Gemini for Virtual Idols
 
 ## Introduction
 
 Vixevia is an innovative AI-based virtual YouTuber (Vtuber) that leverages the cutting-edge capabilities of Google's Gemini language model. This project aims to create a captivating and lifelike virtual personality that can engage with users through natural conversations, visual interactions, and multimedia experiences.
 
-![Project Image Overview](https://github.com/zima-0201/Project-Images/blob/main/Py-CS-Cart-Products-Uploader.jpeg)
+![Project Image Overview](https://github.com/zima-0201/Project-Images/blob/main/Gemini-Vtuber-ChatBot.png)
 
 ### Core Features
 
